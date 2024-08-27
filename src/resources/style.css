@@ -1,17 +1,33 @@
-html {
-    font-family: 'Courier New', Courier, monospace;
+* {
+    box-sizing: border-box;
+    font-family: Raleway, sans-serif;
+
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
 }
 
 .floating-contact {
-    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    float: left;
+    margin-left: 10px;
     background-color: bisque;
     border: 1px rebeccapurple solid;
-    max-width: 100px;
+    
 }
 .floating-contact img {
-    align-self: normal;
-    margin: 0 auto;
-    width: 20px;
+    margin: auto;
+    display: block;
+    align-items: center;
+    width: 60%;
     height: 20px;
   }
 
@@ -19,16 +35,53 @@ html {
     list-style-type: none;
   }
 
-nav ul  {
+header {
+    border: 1px #333 solid;
+    background-color: #333;
+}
+
+nav ul {
+    margin: 0;
     list-style-type: none;
+    text-align: end;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    display: inline-block;
+    color: whitesmoke;
+    padding: 0.5em;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: grey;
+}
+
+.projects-heading {
+    align-self: center;
+    text-align: center;
+    background-color: bisque;
+    max-width: 100px;
 }
 
 .stacks {
-    display: block;
-    align-items: flex-start;
+    display: flex;
+    align-items: center;
+}
+
+
+.stacks li {
+    display: inline-block;
+    
+    
 }
 
 .stacks img {
+    display: inline-block;
     align-self: normal;
     margin: 0 auto;
     width: 50px;
@@ -37,4 +90,8 @@ nav ul  {
 
 .stacks ul  {
     list-style-type: none;
+}
+
+footer {
+    
 }
