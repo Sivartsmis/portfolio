@@ -9,7 +9,13 @@ html{
 }
 
 body {
-    display: flex;
+    display: grid;
+    grid-template: 
+                "a a a" 40px
+                "b c c" 40px
+                "b c c" 40px / 10fr 1fr 1fr;
+    /*grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr); */
 }
 
 .container {
@@ -19,8 +25,9 @@ body {
 }
 
 .floating-contact {
-    display: flex;
+    position: fixed;
     background-color: bisque;
+    width: 60px;
     max-width: 200px;
     max-height: 250px;
     border: purple 1px solid;
@@ -28,9 +35,12 @@ body {
     margin-left: 10px;
     align-items: center;
     justify-content: space-evenly;
-    flex-direction: column;
+    align-content: center;
+    border-radius: 10px;
 }
 .floating-contact img {
+    padding-left: 5px;
+    padding-top: 2.5px;
     width: 50px;
     height: 50px;
   }
@@ -40,10 +50,12 @@ body {
   }
 
 header {
-    display: flex;
-    flex-direction: row;
+    
+    /*display: flex;
+   flex-direction: row; */
     border: 1px #333 solid;
     background-color: #333;
+    width: 100%;
 }
 
 .headshot-img {
@@ -53,16 +65,18 @@ header {
 }
 
 nav {
-   
+   width: 100%;
 }
  
 nav ul {
-    margin: 0;
-    list-style-type: none;
     text-align: end;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 nav li {
+    display: inline;
     margin: 0;
     list-style-type: none;
     text-align: end;
