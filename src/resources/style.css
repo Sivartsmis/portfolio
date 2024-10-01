@@ -18,6 +18,59 @@ body {
     grid-template-columns: repeat(3, 1fr); */
 }
 
+.body-test {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    /*grid-template: 
+                "a a a" 40px
+                "b c c" 40px
+                "b c c" 40px / 10fr 1fr 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr); */
+}
+
+.test-container-nav {
+    border: black 1px solid;
+    width: 100%;
+    grid-column: 1 / 4;
+}
+
+.test-container-margin-left{
+    border: blue 1px solid;
+    width: 50px;
+    grid-row: 2 / 5;
+    grid-column: 1 / 2;
+}
+
+.test-container-main {
+    border: red 1px solid;
+    width: 950px;
+    padding: 0%;
+    grid-column: 2 / 3;
+    grid-row: 2 / 5;
+}
+
+.test-container-content {
+    border: black 1px solid;
+    width: 33%;
+    margin: auto 10px;
+}
+
+.test-container-margin-right {
+    border: blue 1px solid;
+    width: 50px;
+    grid-column: 3 / 4;
+    grid-row: 2 / 5;
+}
+
+.test-container-footer {
+    border: black 1px solid;
+    width: 100%;
+    grid-column: 1 / 4;
+    grid-row: 5 / 6;
+}
+
 .container {
     max-width: 900px;
     margin: 0 auto;
@@ -66,6 +119,7 @@ header {
 
 nav {
    width: 100%;
+   float: rightS;
 }
  
 nav ul {
