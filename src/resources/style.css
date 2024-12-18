@@ -56,7 +56,8 @@ body {
     padding: 0%;
     grid-column: 2 / 3;
     grid-row: 2 / 5;
-    justify-self: start;
+    justify-content: center;
+    align-items: center;
 }
 
 .test-container-content {
@@ -64,7 +65,7 @@ body {
     background-color: black;
     color: aliceblue;
     display: block;
-    margin: 5px 10px;
+    width: 90px;
 }
 
 .test-container-margin-right {
