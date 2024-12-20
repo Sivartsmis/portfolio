@@ -26,6 +26,9 @@ body {
 }
 
 nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
     border: 1px black solid;
     list-style: none;
     margin: 0;
@@ -36,7 +39,7 @@ nav {
 }
 
 nav li {
-    float: left;
+    
     border-right: 1px solid #bbb;
 }
 
@@ -55,16 +58,17 @@ nav li a:hover {
 .active {
     background-color: #04AA6D;
 }
-.container {
-    
+.container.main {
+    border: 1px solid teal;
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    grid-template-rows: 50% 50%;
+    justify-items: center;
 }
-.main{
-    display: block;
-}
+
 .left-of-main-well {
-    display: block;
-    width: 500px;
-    margin: 10px;
+    grid-column-start: 1;
+    grid-column-end: 2;
 
 }
 
