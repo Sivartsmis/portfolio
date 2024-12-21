@@ -106,6 +106,24 @@ nav li a:hover {
 
 }
 
+.stacks {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.stacks li {
+    list-style: none;
+}
+
+.stacks img {
+    display: block;
+    width: 50px;
+    height: 50px;
+}
 
 
 div {
