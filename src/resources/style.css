@@ -59,7 +59,11 @@ nav li a:hover {
 }
 
 .container {
-    text-wrap: wrap;
+    border: 1px dashed purple;
+}
+
+.name {
+    border: 1px dashed green;
 }
 
 .main {
