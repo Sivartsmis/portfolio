@@ -65,16 +65,22 @@ nav li a:hover {
 
 .name {
     border: 1px dashed green;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.grid-parent {
+    display: grid;
+    grid-template-columns: 5% 10% 70% 10% 5%;
+    grid-template-rows: 50% 50%;
+    justify-items: center;
 }
 
 .main {
     border: 1px solid red;
     margin: 10px;
     padding: 10px;
-    display: grid;
-    grid-template-columns: 15% 70% 15%;
-    grid-template-rows: 50% 50%;
-    justify-items: center;
+
 
 }
 
