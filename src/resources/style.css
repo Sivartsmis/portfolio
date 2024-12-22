@@ -63,7 +63,7 @@ nav li a:hover {
     border: 1px dashed purple;
 }
 
-.name {
+.name, .resume {
     border: 1px dashed green;
     grid-column-start: 2;
     grid-column-end: 4;
