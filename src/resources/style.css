@@ -22,17 +22,21 @@ body {
 */
 
 .background {
-    
-}
-
-.primary {
-
+    background-color: #696969;
 }
 
 .secondary {
-
+    background-color: #060020;
 }
 
+.primary {
+    background-color: #2f0382;
+}
+
+.active {
+    background-color: #568203;
+    
+}
 
 body {
 
@@ -68,9 +72,6 @@ nav li a:hover {
     background-color: #111;
 }
 
-.active {
-    background-color: #04AA6D;
-}
 
 .container {
     border: 1px dashed purple;
@@ -98,12 +99,45 @@ nav li a:hover {
 
 
 }
+/*
+    grid classes
+*/
+.start-one{
+    grid-column-start: 1;
+}
+
+.start-two{
+    grid-column-start: 2;
+}
+
+.start-three{
+    grid-column-start: 3;
+}
+
+.start-four{
+    grid-column-start: 4;
+}
+
+.end-two{
+    grid-column-end: 2;
+}
+
+.end-three{
+    grid-column-end: 3;
+}
+
+.end-four{
+    grid-column-end: 4;
+}
+
+.end-five{
+    grid-column-end: 5;
+}
+
 
 .left-of-main-well {
     margin: 5px 5px;
     padding: 5px;
-    grid-column-start: 1;
-    grid-column-end: 2;
 
 }
 
