@@ -6,25 +6,24 @@ body {
 }
 
 img {
-    border-radius: 250px;
-    height: 500px;
-    width: 500px;
+    border-radius: 2.5rem;
+    height: 5rem;
+    width: 5rem;
 }
 
 h1 {
-    font-size: 72px;
+    font-size: 1rem;
 }
 
 h2 {
-    font-size: 54px;
+    font-size: .75rem;
 }
 
 p {
-    font-size: 36px;
+    font-size: .5rem;
 }
 
 a {
-    align-self: center;
     display: block;
     text-align: center;
     margin: 10px;
