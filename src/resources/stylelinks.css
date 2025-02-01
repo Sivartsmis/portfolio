@@ -6,34 +6,45 @@ body {
 }
 
 img {
-    border-radius: 2.5rem;
-    height: 5rem;
-    width: 5rem;
+    border-radius: 250px;
+    height: 500px;
+    width: 500px;
+    margin: 10px;
+    padding: 5px;
 }
 
+/* Font Sizing */
+
+
 h1 {
-    font-size: 1rem;
+    font-size: 128px;
 }
 
 h2 {
-    font-size: .75rem;
+    font-size: 72px;
 }
 
 p {
-    font-size: .5rem;
+    font-size: 56px;
 }
-
+div {
+    display: inline-block;
+    height: 500px;
+}
 a {
     display: block;
     text-align: center;
-    margin: 10px;
+    margin: 15px;
     color: slateblue;
     background-color: white;
-    font-size: 20px;
+    font-size: 56px;
     border-radius: 10px;
     padding: 10px;
-    width: 33%;
+    width: 750px;
+    height: 75px;
     text-decoration: none;
+    border: 1px solid whitesmoke;
+    font-weight: bold;
 }
 
 a:hover {
@@ -41,3 +52,5 @@ a:hover {
     background-color: orangered;
     border: 1px solid black;
 }
+
+

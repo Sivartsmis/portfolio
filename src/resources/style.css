@@ -39,9 +39,7 @@ body {
 }
 
 body {
-
-   border: 1px red solid;
-   
+    border: 1px red solid;   
 }
 
 nav {
@@ -53,7 +51,6 @@ nav {
     margin: 0;
     padding: 0;
     background-color: #333;
-
 }
 
 nav li {
@@ -73,77 +70,15 @@ nav li a:hover {
     background-color: #111;
 }
 
-
-.container {
-    border: 1px dashed purple;
-}
-
-.name, .resume {
-    border: 1px dashed green;
-    grid-column-start: 2;
-    grid-column-end: 4;
-    width: 100%;
-}
-
-.grid-parent {
-    display: grid;
-    grid-template-columns: 5% 10% 70% 10% 5%;
-    grid-template-rows: 50% 50%;
-    grid-column-gap: 10px;
-    justify-items: center;
-}
-
-.main {
-    border: 1px solid blue;
-    margin: 10px;
-    padding: 10px;
-
-
-}
-/*
-    grid classes
-*/
-.start-one{
-    grid-column-start: 1;
-}
-
-.start-two{
-    grid-column-start: 2;
-}
-
-.start-three{
-    grid-column-start: 3;
-}
-
-.start-four{
-    grid-column-start: 4;
-}
-
-.end-two{
-    grid-column-end: 2;
-}
-
-.end-three{
-    grid-column-end: 3;
-}
-
-.end-four{
-    grid-column-end: 4;
-}
-
-.end-five{
-    grid-column-end: 5;
-}
-
-
 .left-of-main-well {
+    display: inline-block;
     margin: 5px 5px;
     padding: 5px;
-
+    width: 33%;
 }
 
 .floating-contact {
-
+    display: inline-block;
     border-radius: 20px;
     list-style: none;
     margin: 10px 0px;
@@ -167,6 +102,11 @@ nav li a:hover {
 
 }
 
+
+.container {
+    display: inline-block;
+    border: 1px dashed purple;
+}
 
 .purpose {
     border: 1px dashed;
