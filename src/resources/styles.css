@@ -86,3 +86,19 @@ nav li a:hover {
 
 
 /* main */
+
+img {
+    height: 50px;
+}
+
+.content {
+    display: block;
+    width: 750px;
+
+    align-self: center;
+    justify-self: center;
+}
+
+.name-title h1, .name-title h3 {
+    display: inline;
+}
