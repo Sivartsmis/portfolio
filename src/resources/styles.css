@@ -99,6 +99,11 @@ img {
     justify-self: center;
 }
 
+.inline {
+    display: inline;
+
+}
+
 .name-title {
     margin: 25px 15px;
 }
@@ -107,10 +112,12 @@ img {
     display: inline;
 }
 
-
+.project {
+    margin: 5px;
+    padding: 5px;
+}
 
 .skills img{
-    
     display: inline-block;
     margin: 5px;
     padding: 15px;
