@@ -87,6 +87,10 @@ nav li a:hover {
 
 /* main */
 
+main {
+    margin: auto 25px;
+}
+
 img {
     height: 50px;
 }
@@ -94,7 +98,7 @@ img {
 .contact-container{
     height: auto;
     min-width: 500px;
-    
+    background-color: #568203;
     border: 1px solid #111;
     margin: auto 50px;
 }
@@ -103,8 +107,15 @@ img {
     display: inline-block;
     height: auto;
     width: 400px;
-    padding: 0px 10px;
-    
+    padding: 0px 5px;
+    background-color: ;
+}
+
+.contact-img   {
+    background-color: whitesmoke;
+    border: solid 1px #111;
+    border-radius: 15px;
+    padding: 5px;
 }
 
 
@@ -134,6 +145,14 @@ img {
     padding: 5px;
 }
 
+.project-list {
+    list-style-type:circle;
+}
+
+.projects-list-item {
+    border-bottom: 3px solid black;
+}
+
 .skills img{
     display: inline-block;
     margin: 5px;
@@ -160,6 +179,7 @@ img {
 footer {
     display: inline;
     width: 100%;
+    margin: 25px;
 }
 
 footer div {
