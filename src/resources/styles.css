@@ -93,16 +93,20 @@ img {
 
 .contact-container{
     height: auto;
-    min-width: 1200px;
+    min-width: 500px;
+    
+    border: 1px solid #111;
+    margin: auto 50px;
 }
 
 .contact {
     display: inline-block;
     height: auto;
     width: 400px;
-    padding: 5px;
-    margin: 5px;
+    padding: 0px 10px;
+    
 }
+
 
 .content {
     display: block;
