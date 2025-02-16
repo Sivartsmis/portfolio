@@ -49,7 +49,7 @@ html{
 }
 
 body {
-    border: 1px red solid;   
+    /*border: 1px red solid;   */
 }
 
 /* nav */
@@ -89,6 +89,19 @@ nav li a:hover {
 
 img {
     height: 50px;
+}
+
+.contact-container{
+    height: auto;
+    min-width: 1200px;
+}
+
+.contact {
+    display: inline-block;
+    height: auto;
+    width: 400px;
+    padding: 5px;
+    margin: 5px;
 }
 
 .content {
@@ -136,4 +149,18 @@ img {
 .stack {
     width: 85%;
     padding-right: 25px;
+}
+
+
+/* Footer */
+footer {
+    display: inline;
+    width: 100%;
+}
+
+footer div {
+    display: inline-block;
+}
+footer p, footer h6 {
+    font-size: x-small;
 }
